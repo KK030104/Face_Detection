@@ -2,7 +2,7 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier('frontal_face.xml')
 
-img = cv2.imread('rugved.jpg')
+img = cv2.imread('manya3.jpg')
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
